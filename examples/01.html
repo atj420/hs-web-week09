@@ -1,24 +1,39 @@
-
 <!doctype html>
 <html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>9주차 예제 1</title>
-</head>
-<body style="background-color: skyblue !important; min-height: 100vh;">
+  <title>9주차 예제 1 · 켜는 곳은 자식이 아니라 부모입니다</title>
 
+  <style>
+    /* 페이지 전체 배경을 하늘색으로 설정 */
+    html, body {
+      background-color: skyblue !important;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* 기존 Flexbox 예제 */
+    .container {
+      display: flex;
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body>
   <h1>제목 h1</h1>
   <p class="intro">문단 p — 위에 작성한 CSS가 이 견본 문서에 적용됩니다.</p>
-
   <ul>
-    <li>목록 1. 사과</li>
-    <li>목록 2. 바나나</li>
+    <li>목록 1.사과</li>
+    <li>목록 2.바나나</li>
     <li>목록 3</li>
   </ul>
-
   <div class="box">div.box</div>
   <button>버튼</button>
-
 </body>
 </html>
